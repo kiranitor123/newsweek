@@ -1,5 +1,5 @@
 nav {
-  background-color: #F72310 ;
+  background-color: #f72310;
   padding: 10px;
   height: 50px;
 }
@@ -29,7 +29,7 @@ svg {
 }
 
 .btn-warning {
-  background-color: #FFE400 !important;
+  background-color: #ffe400 !important;
   height: 30px;
 }
 
@@ -46,7 +46,7 @@ svg {
 .svg-footer {
   width: 236px;
   height: 35px;
-  fill: #F72310;
+  fill: #f72310;
   margin-bottom: 15px;
 }
 
@@ -86,7 +86,6 @@ svg {
   .fe-links :nth-of-type(5)::after {
     content: '';
   }
-  
 }
 
 @media only screen and (min-width: 1200px) {

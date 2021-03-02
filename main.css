@@ -42,7 +42,6 @@ a {
 }
 
 .main-content {
-  height: 500px;
   width: 100%;
   background-color: salmon;
 }
@@ -70,6 +69,13 @@ a {
 
 .footer-links {
   padding-top: 0;
+}
+
+.col {
+  height: 500px;
+  width: auto;
+  background-color: blue;
+  margin: 20px;
 }
 
 @media only screen and (min-width: 768px) {

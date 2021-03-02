@@ -19,7 +19,7 @@ a {
 }
 
 .border-3 {
-  border-right: 2px solid #dee2e6!important;
+  border-right: 2px solid #dee2e6 !important;
 }
 
 .font-13 {
@@ -72,7 +72,6 @@ a {
   padding-top: 0;
 }
 
-
 @media only screen and (min-width: 768px) {
   .subscribe-content {
     align-items: center;
@@ -102,13 +101,14 @@ a {
     height: 95px;
     padding: 20px !important;
   }
+
   .mo-links {
     align-items: center;
   }
 
   .menu-options {
     background-color: #fff;
-    padding: 5px 100px 5px 10px!important;
+    padding: 5px 100px 5px 10px !important;
     height: auto;
   }
 

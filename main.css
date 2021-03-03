@@ -26,6 +26,14 @@ a {
   font-size: 13px;
 }
 
+.font-16 {
+  font-size: 16px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
 .font-30 {
   font-size: 30px;
   padding: 0 5px;
@@ -41,10 +49,10 @@ a {
   height: 30px;
 }
 
-.main-content {
-  height: 500px;
-  width: 100%;
-  background-color: salmon;
+.ct-content {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
 }
 
 .footer-fc {
@@ -72,6 +80,116 @@ a {
   padding-top: 0;
 }
 
+.image-left {
+  align-items: flex-end;
+}
+
+.left-image-title {
+  color: #f72310;
+  padding: 5px 10px;
+  background-color: #f3f4f5;
+}
+
+.ct-image-title {
+  padding: 2px 5px;
+  background-color: #c2d4d7;
+}
+
+.left-image-insight {
+  color: #3581f4;
+  padding: 5px 10px;
+  background-color: #f3f4f5;
+}
+
+.top-story {
+  background-image: url(./assets/left-side/biden-speaks-delaware.webp);
+  height: 364px;
+  width: auto;
+  background-size: cover;
+}
+
+.ct-image {
+  background-image: url(./assets/center-side/cul-map-happiness-finland.jpg);
+  height: 155px;
+  width: auto;
+  background-size: cover;
+}
+
+.content-insight {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+.media {
+  align-items: center !important;
+}
+
+.left-debate {
+  border-top: 4px solid #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.rigth-debate {
+  border-bottom: 4px solid #d9d9d9;
+  padding-bottom: 12px;
+}
+
+.opinion {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 12px;
+}
+
+.c-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+
+.deco::before {
+  top: calc(50% - 2px);
+}
+
+.deco::after {
+  top: 50%;
+}
+
+.deco::after,
+.deco::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.login-img {
+  height: 50px;
+  background-color: #f72310;
+  padding: 10px;
+}
+
+.sign-up-btn {
+  background-color: #f72310 !important;
+  border-color: #f72310 !important;
+}
+
+.login-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+}
+
 @media only screen and (min-width: 768px) {
   .subscribe-content {
     align-items: center;
@@ -79,6 +197,11 @@ a {
 
   .login-title {
     padding: 0 5px;
+  }
+
+  .dt-sponsor {
+    width: 400px;
+    margin: auto;
   }
 
   .footer-container,

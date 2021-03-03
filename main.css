@@ -172,6 +172,24 @@ a {
   right: 0;
 }
 
+.login-img {
+  height: 50px;
+  background-color: #f72310;
+  padding: 10px;
+}
+
+.sign-up-btn {
+  background-color: #f72310 !important;
+  border-color: #f72310 !important;
+}
+
+.login-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+}
+
 @media only screen and (min-width: 768px) {
   .subscribe-content {
     align-items: center;
